@@ -1,0 +1,40 @@
+/* Your styles for header, nav, section, and form go here */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    background-color: #555;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+nav select {
+    padding: 8px;
+}
+
+section {
+    margin: 20px;
+}
+
+form {
+    margin: 20px;
+}
